@@ -18,10 +18,10 @@ int main()
 					else
 					{
 						int res=(a[i][j]*a[x][y])+(a[i+1][j]*a[x+1][y])+(a[i-1][j]*a[x-1][y])+(a[i][j+1]*a[x][y+1])+(a[i][j-1]*a[x][y-1]);
-            if(max<res)
-            {
-              max=res;
-            }
+            					if(max<res)
+           					{
+              						max=res;
+            					}
 					}
 				}
 			}
