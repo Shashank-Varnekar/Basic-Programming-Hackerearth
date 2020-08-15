@@ -3,7 +3,7 @@ Milly is a very cool algorithmist. She likes to make new algorithms to solve rea
 
 Suppose we have a string S, Then :
 
-enter image description here
+  SPA = ( 10 * summation(C[ch] * W[ch]) ) / ( TL * TW )
 
 Here ,
              C[ch]: Count of a character ch in S,
@@ -13,16 +13,20 @@ Here ,
 Input
 First line of the input will contain a integer T (number of test cases).
 Then for every test case there will be two lines, First one will have the string S and the other one will have 26 space separated integers denoting W[ch].
+
 Output
 For every test case, print the required SPA and Your answer will be considered as correct if it has an absolute error less than 10-2.
+
 Constraints
 1 ≤ T ≤ 10
 1 ≤ W[ch] ≤ 100
 1 ≤ TL ≤ 105
 ch ∈ {a, b, c ... ,z}
+
 SAMPLE INPUT 
 1
 aab
 20 50 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+
 SAMPLE OUTPUT 
 4.29
