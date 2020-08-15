@@ -1,0 +1,28 @@
+PROBLEM STATEMENT Points: 30
+Milly is a very cool algorithmist. She likes to make new algorithms to solve real world scenarios. This time she is playing with strings and she is trying to produce some new concept out of it. She has developed a new concept of SPA which stands for STRING POINT AVERAGE. This concept is described below :
+
+Suppose we have a string S, Then :
+
+enter image description here
+
+Here ,
+             C[ch]: Count of a character ch in S,
+             W[ch]: Weight of the character ch,
+              TL:   Total length of S and
+              TW:   Total Weight of unique characters of S
+Input
+First line of the input will contain a integer T (number of test cases).
+Then for every test case there will be two lines, First one will have the string S and the other one will have 26 space separated integers denoting W[ch].
+Output
+For every test case, print the required SPA and Your answer will be considered as correct if it has an absolute error less than 10-2.
+Constraints
+1 ≤ T ≤ 10
+1 ≤ W[ch] ≤ 100
+1 ≤ TL ≤ 105
+ch ∈ {a, b, c ... ,z}
+SAMPLE INPUT 
+1
+aab
+20 50 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+SAMPLE OUTPUT 
+4.29
